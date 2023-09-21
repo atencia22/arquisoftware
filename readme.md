@@ -122,8 +122,8 @@ Como usuario, debería poder modificar los problemas creados junto a los límite
 
 A continuación, se presenta una tabla que resume los atributos de calidad, sus descripciones y los escenarios asociados:
 
-| Atributo | Descripción | Estímulo | Fuente del estímulo | Medida de Respuesta | Entorno | Artefacto |
-|--------------------------|---------------------------|-------------------------|
+| Atributo | Descripción | Estímulo | Fuente_del estímulo | Medida de Respuesta | Entorno | Artefacto |
+|--------------------------|---------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
 | Escalabilidad          | Manejar una carga creciente sin degradación del rendimiento. |
   1.1 En una competencia importante, la plataforma enfrenta un aumento significativo en el número de usuarios.
   1.2 Durante una competencia en línea, se espera un gran aumento en el número de usuarios que intentan enviar soluciones simultáneamente. La     
