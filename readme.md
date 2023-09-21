@@ -10,7 +10,6 @@ Para el trabajo en grupo hemos definido utilizar como tema de trabajo la arquite
 ## 1. Caso de Negocio
 ### 1.1. Generalidades
 Ulitorneos es una plataforma virtual con sede en Lima. Se dedica a ofrecer una experiencia de competencia en línea, similar a un "online judge", que permite a los participantes involucrarse en torneos de programación y desafíos similares. Su enfoque se encuentra en la virtualidad, lo que significa que opera en un entorno completamente en línea, lo que facilita la participación desde cualquier ubicación geográfica.
-
 ### 1.2. Modelo de Negocio
 #### 1.2.1. Descripción
 El modelo de negocio de la empresa se centra principalmente en generar ingresos a través de suscripciones premium, ofreciendo a los usuarios una versión mejorada y más completa de su plataforma o servicio a cambio de una tarifa periódica. El tipo de negocio sería B2B. Los usuarios serían las instituciones que quieran llevar a cabo los torneos.
@@ -69,39 +68,33 @@ En cuanto a los stakeholders, son todas aquellas personas que quieran mejorar su
 ## 2. Requerimientos del Sistema
 
 ### 2.1. Requerimientos Funcionales
-#### US01: Registro de usuario
+#### RF01: Registro de usuario
 Como usuario, quiero poder crear una cuenta nueva, con un correo (revisar esto), usuario y una contraseña, para acceder a la plataforma. También poder crear la cuenta utilzando los servicios de google para mayor facilidad. 
-#### US02: Inicio de sesión
+#### RF02: Inicio de sesión
 Como usuario, quiero poder ingresar al sistema con los datos de usuario que registré, para poder acceder a las funciones de la plataforma.
-#### US03: Modificar datos personales
+#### RF03: Modificar datos personales
 Como usuario, quiero poder modificar mi nombre de usuario, contraseña y el país, para tener mis datos siempre actualizados.
-#### US04: Cerrar sesión
+#### RF04: Cerrar sesión
 Como usuario, quiero poder cerrar mi sesión del sistema, para dar por culminado mi trabajo.
-#### US05: Visualizar problemas
+#### RF05: Visualizar problemas
 Como usuario, quiero poder visualizar el nombre y la descripción de los problemas que puedo resolver, para estar conocer los detalles de estos.
-#### US06: Subir solución
+#### RF06: Subir solución
 Como usuario, quiero seleccionar un problema y subir los archivos de código fuente, para presentar una solución.
-#### US07: Visualización del tiempo del concurso
+#### RF07: Visualización del tiempo del concurso
 Como usuario, quiero poder ver el tiempo restante del concurso, para poder organizarme de la mejor manera.
-#### US08: Visualizar resultados
+#### RF08: Visualizar resultados
 Como usuario, quiero poder visualizar la información de los problemas y las respectivas soluciones que presenté, así como el tiempo que tomé, el lenguage utilizado, y la respuesta por parte del juez, para seguir el récord de mis soluciones presentadas.
-#### US09: Visualizar puntajes globales
+#### RF09: Visualizar puntajes globales
 Como usuario, quiero poder ver los puntajes a nivel global de otros usuarios que han presentado sus soluciones, con datos como el nombre de usuario, el país, el instituto, los problemas que ha resuelto y el puntaje total, para hacer un seguimiento del progreso de otros usuarios.
-
------
-### US10: Registrar nuevo concurso 
+#### RF10: Registrar nuevo concurso 
 Como Usuario, quiero poder crear mi concurso de programación con la cantidad de participantes, el tiempo del concurso, las fechas límites del concurso y las características como los títulos, descripciones, etc. 
-
-### US11: Subir problemas al concurso creado 
+#### RF11: Subir problemas al concurso creado 
 Como usuario, debería poder subir los problemas para el concurso que he creado junto a sus casos de prueba y los límites que este necesita. 
-
-### US12: Modificar el concurso 
+#### RF12: Modificar el concurso 
 Como usuario, debería poder modificar una vez creado el concurso creado, tanto como el título, la cantidad de participantes, las fechas, lo límites, etc. 
-
-### US13: Modificar los problemas del concurso
+#### RF13: Modificar los problemas del concurso
 Como usuario, debería poder modificar los problemas creados junto a los límites y las características del problema. 
 
----
 <!-- #### // Requerimientos por evaluar: Existen otras funcionalidades nuestras plataformas modelo ofrecen y que se necesitan evaluar para su implementación en la nuestra. Como usuario del sistema, existen opciones realizar clarificaciones respecto a un problema, ver tastks y realizar backups. Como administrador del sistema, se pueden crear y modificar los datos de competencias, ver logs, reportes, los usuarios en una competencia, entre otros. // -->
 
 ### 2.2. Flujo de Interacción con la Plataforma Ulitorneos: (Flujo principal)
