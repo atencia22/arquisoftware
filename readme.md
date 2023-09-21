@@ -68,31 +68,31 @@ En cuanto a los stakeholders, son todas aquellas personas que quieran mejorar su
 ## 2. Requerimientos del Sistema
 
 ### 2.1. Requerimientos Funcionales
-#### RF01: Registro de usuario
+#### US01: Registro de usuario
 Como usuario, quiero poder crear una cuenta nueva, con un correo (revisar esto), usuario y una contraseña, para acceder a la plataforma. También poder crear la cuenta utilzando los servicios de google para mayor facilidad. 
-#### RF02: Inicio de sesión
+#### US02: Inicio de sesión
 Como usuario, quiero poder ingresar al sistema con los datos de usuario que registré, para poder acceder a las funciones de la plataforma.
-#### RF03: Modificar datos personales
+#### US03: Modificar datos personales
 Como usuario, quiero poder modificar mi nombre de usuario, contraseña y el país, para tener mis datos siempre actualizados.
-#### RF04: Cerrar sesión
+#### US04: Cerrar sesión
 Como usuario, quiero poder cerrar mi sesión del sistema, para dar por culminado mi trabajo.
-#### RF05: Visualizar problemas
+#### US05: Visualizar problemas
 Como usuario, quiero poder visualizar el nombre y la descripción de los problemas que puedo resolver, para estar conocer los detalles de estos.
-#### RF06: Subir solución
+#### US06: Subir solución
 Como usuario, quiero seleccionar un problema y subir los archivos de código fuente, para presentar una solución.
-#### RF07: Visualización del tiempo del concurso
+#### US07: Visualización del tiempo del concurso
 Como usuario, quiero poder ver el tiempo restante del concurso, para poder organizarme de la mejor manera.
-#### RF08: Visualizar resultados
+#### US08: Visualizar resultados
 Como usuario, quiero poder visualizar la información de los problemas y las respectivas soluciones que presenté, así como el tiempo que tomé, el lenguage utilizado, y la respuesta por parte del juez, para seguir el récord de mis soluciones presentadas.
-#### RF09: Visualizar puntajes globales
+#### US09: Visualizar puntajes globales
 Como usuario, quiero poder ver los puntajes a nivel global de otros usuarios que han presentado sus soluciones, con datos como el nombre de usuario, el país, el instituto, los problemas que ha resuelto y el puntaje total, para hacer un seguimiento del progreso de otros usuarios.
-#### RF10: Registrar nuevo concurso 
+#### US10: Registrar nuevo concurso 
 Como Usuario, quiero poder crear mi concurso de programación con la cantidad de participantes, el tiempo del concurso, las fechas límites del concurso y las características como los títulos, descripciones, etc. 
-#### RF11: Subir problemas al concurso creado 
+#### US11: Subir problemas al concurso creado 
 Como usuario, debería poder subir los problemas para el concurso que he creado junto a sus casos de prueba y los límites que este necesita. 
-#### RF12: Modificar el concurso 
+#### US12: Modificar el concurso 
 Como usuario, debería poder modificar una vez creado el concurso creado, tanto como el título, la cantidad de participantes, las fechas, lo límites, etc. 
-#### RF13: Modificar los problemas del concurso
+#### US13: Modificar los problemas del concurso
 Como usuario, debería poder modificar los problemas creados junto a los límites y las características del problema. 
 
 <!-- #### // Requerimientos por evaluar: Existen otras funcionalidades nuestras plataformas modelo ofrecen y que se necesitan evaluar para su implementación en la nuestra. Como usuario del sistema, existen opciones realizar clarificaciones respecto a un problema, ver tastks y realizar backups. Como administrador del sistema, se pueden crear y modificar los datos de competencias, ver logs, reportes, los usuarios en una competencia, entre otros. // -->
