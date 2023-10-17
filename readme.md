@@ -10,11 +10,15 @@ Para el trabajo en grupo hemos definido utilizar como tema de trabajo la arquite
 
 ## 1. Caso de Negocio
 ### 1.1. Generalidades
-Ulitorneos es una plataforma virtual con sede en Lima. Se dedica a ofrecer una experiencia de competencia en línea, similar a un "online judge", que permite a los participantes involucrarse en torneos de programación y desafíos similares. Su enfoque se encuentra en la virtualidad, lo que significa que opera en un entorno completamente en línea, lo que facilita la participación desde cualquier ubicación geográfica.
+* Ulitorneos es una plataforma en línea que permite a las organizaciones y empresas organizar hackathones. La plataforma facilita el proceso de creación de hackathones, desde la definición del tema y los desafíos hasta la inscripción de participantes y la evaluación de resultados. 
+* Además, la plataforma ofrece un apoyo para el área de marketing al proporcionar un registro de participantes anteriores para futuras convocatorias y un análisis de datos sobre las tendencias de participación, concursantes destacados, desafíos más difíciles, proyectos más populares, etcétera.
+* Adicionalmente, Ulitorneos tiene un equipo de consultoría que se enfoca en satisfacer requerimientos más específicos de los usuarios Premium. Estos requerimientos pueden abordar temas de interoperabilidad, entornos de ejecución, etcétera.
+* De esta manera la plataforma además de proporcionar un entorno para organizar hackathones también une logre establecer una conexión entre desarrolladores y empresas para una mejor selección de empleados potenciales.
 
 ### 1.2. Modelo de Negocio
 #### 1.2.1. Descripción
-El modelo de negocio de la empresa se centra principalmente en generar ingresos a través de suscripciones premium, ofreciendo a los usuarios una versión mejorada y más completa de su plataforma o servicio a cambio de una tarifa periódica. El tipo de negocio sería B2B. Los usuarios serían las instituciones que quieran llevar a cabo los torneos.
+El modelo de negocio de ULitorneos es un modelo de suscripción B2B. Las empresas o entidades cliente pagan una suscripción anual para acceder a la plataforma. La suscripción varía en el acceso a las funciones  y recursos de la plataforma, así como soporte técnico.
+
 #### 1.2.2. Objetivos del Negocio
 - Desarrollar una plataforma funcional y atractiva que ofrezca la experiencia de competencia en línea.
 - Probar la plataforma con un grupo inicial de usuarios para identificar posibles problemas y realizar mejoras.
@@ -23,16 +27,16 @@ El modelo de negocio de la empresa se centra principalmente en generar ingresos 
 - Contactar a programadores destacadas en base a logros en la plataforma
 #### 1.2.3. Business Model Canvas
 
-##### Segmentos de Clientes:
-- Universidades
-- Empresas de reclutamiento de desarrolladores con empresas 
-- Instituciones que quieran tener torneos de programación.
+##### Segmento de Clientes:
+- **Universidades:** Las universidades pueden utilizar ULitorneos para organizar hackathones para estudiantes. Estos hackathones pueden ayudar a las universidades a promover la educación en informática y a atraer a estudiantes talentosos.
+- **Empresas de reclutamiento:** Las empresas de reclutamiento pueden utilizar ULitorneos para organizar hackathones para desarrolladores. Estos hackathones pueden ayudar a las empresas a encontrar nuevos talentos y a promover su marca empleadora.
+- **Instituciones:** Las instituciones, como las organizaciones sin fines de lucro y los gobiernos, pueden utilizar ULitorneos para organizar torneos de programación. Estos torneos pueden ayudar a las instituciones a promover sus objetivos y a involucrar a la comunidad.
 
 ##### Propuesta de Valor:
-- Experiencia de competencia en línea.
-- Adaptabilidad para que la plataforma se adecúe a las necesidades de la institución en el aspecto de "look an feel"
-- Acceso a una plataforma virtual desde cualquier ubicación.
-
+- Plataforma que proporciona todas las herramientas para organizar una hackathon
+- Recursos de marketing para los clientes
+- Equipos de soporte y consultoría eficientes para necesidades antes, durante y después del torneo
+- Interoperabilidad de la plataforma
 
 ##### Canales:
 - Plataforma en línea (sitio web).
@@ -41,15 +45,28 @@ El modelo de negocio de la empresa se centra principalmente en generar ingresos 
 - Alianzas con instituciones educativas.
 
 ##### Relaciones con los Clientes:
-- Soporte en línea.
-- Comunidad en línea (foros, redes sociales).
+- Soporte en línea
+- Equipo de consultoría
+- Comunidad en línea (foros, redes sociales)
 
 ##### Fuentes de Ingresos:
-- Suscripciones premium para los concursantes(ingresos recurrentes).
+- Suscripciones
+
+| Característica          | Plan de Prueba (14 días) | Plan Básico | Plan Premium |
+|-------------------------|--------------------------|-------------|--------------|
+| Precio                  | Gratis                   | $89/anual     | $159/mes      |
+| Duración                | 14 días                  | Anual         | Anual         |
+| Cantidad de Torneos     | 1                        | 12           | Ilimitado      |
+| Cantidad de Solicitudes por hora | 500             | 1000        | 5000            |
+| Almacenamiento de Datos | 100 MB                   | 500 MB      | 50 GB           |
+| Soporte Prioritario     | No                       | No          | Sí              |
+| Servicio de Consultorí  | No                       | No          | Sí              |
+| Recursos de Marketing   | No                       | No          | Sí              |
 
 ##### Recursos Clave:
-- Plataforma en línea.
-- Tecnología de competencia en línea.
+- Plataforma en línea
+- Tecnología
+- Equipo de desarrolladores, soporte, consultoría
 
 ##### Actividades Clave:
 - Desarrollo y mantenimiento de la plataforma.
@@ -57,8 +74,8 @@ El modelo de negocio de la empresa se centra principalmente en generar ingresos 
 - Marketing y promoción en línea.
 
 ##### Asociaciones Clave:
-- Alianzas con instituciones educativas.
-- Colaboraciones con empresas de tecnología.
+- Alianzas con instituciones educativas
+- Colaboraciones con empresas de tecnología
 
 ##### Estructura de Costos:
 - Desarrollo y mantenimiento de la plataforma.
@@ -78,13 +95,13 @@ El equipo detrás de Ulitorneos está compuesto por cuatro miembros clave. Javie
 | Arquitecto de software   | Lelis Atencia| Diseña la estructura de la plataforma, incluyendo la arquitectura técnica y la infraestructura necesaria para soportar la carga de trabajo. Toma decisiones técnicas clave para garantizar la escalabilidad y la eficiencia. |
 | Implementador e integrador| Francisco Diaz | Responsable de desarrollar, implementar y mantener las características técnicas de la plataforma. Codifican las funcionalidades requeridas, integran sistemas externos y aseguran que todo funcione correctamente. |
 | Responsable de mantenimiento| Angel Cuya | Encargado de mantener y actualizar la plataforma en funcionamiento. Esto implica la solución de problemas técnicos, la aplicación de actualizaciones de seguridad y el monitoreo constante para garantizar el rendimiento y la disponibilidad. |
-|         Performance Checker         | Javier Olazabal | Supervisa y gestiona la evaluación de los códigos enviados por los participantes. Realiza pruebas de compilación y ejecución para verificar la precisión y eficiencia de las soluciones. Contribuye a la imparcialidad y calidad de la plataforma al garantizar una evaluación precisa de los outcomes de los participantes. |
+|         Performance Checker         | Javier Olazábal | Supervisa y gestiona la evaluación de los códigos enviados por los participantes. Realiza pruebas de compilación y ejecución para verificar la precisión y eficiencia de las soluciones. Contribuye a la imparcialidad y calidad de la plataforma al garantizar una evaluación precisa de los outcomes de los participantes. |
 
 
 ## 2. Requerimientos del Sistema
 
 ### 2.1. Requerimientos Funcionales
-#### Requerimientos funcionales de usuario genérico
+#### Requerimientos funcionales de usuario (Todos los tipos de usuario)
 
 | Identificador | Descripción                                       |
 |---------------|---------------------------------------------------|
@@ -103,31 +120,49 @@ El equipo detrás de Ulitorneos está compuesto por cuatro miembros clave. Javie
 | US08          | Como participante, quiero poder visualizar la información de los problemas y las respectivas soluciones que presenté, así como el tiempo que tomé, el lenguaje utilizado y la respuesta por parte del juez, para seguir el récord de mis soluciones presentadas. |
 | US09          | Como participante, quiero poder ver los puntajes a nivel global de otros participantes que han presentado sus soluciones, con datos como el nombre de participante, el país, el instituto, los problemas que ha resuelto y el puntaje total, para hacer un seguimiento del progreso de otros participantes. |
 
-#### Requerimientos funcionales de la institución
+#### Requerimientos funcionales del cliente
 
 | Identificador | Descripción                                       |
 |---------------|---------------------------------------------------|
-| US10          | Como institución, quiero poder crear mi concurso de programación con la cantidad de participantes, el tiempo del concurso, las fechas límites del concurso y las características como los títulos, descripciones, etc. |
-| US11          | Como institución, debería poder subir los problemas para el concurso que he creado junto a sus casos de prueba y los límites que este necesita. |
-| US12          | Como institución, debería poder modificar una vez creado el concurso, tanto como el título, la cantidad de participantes, las fechas, los límites, etc. |
-| US13          | Como institución, debería poder modificar los problemas creados junto a los límites y las características del problema. |
+| US10          | Como cliente, quiero poder crear mi concurso de programación con la cantidad de participantes, el tiempo del concurso, las fechas límites del concurso y las características como los títulos, descripciones, etc. |
+| US11          | Como cliente, debería poder subir los problemas para el concurso que he creado junto a sus casos de prueba y los límites que este necesita. |
+| US12          | Como cliente, debería poder modificar una vez creado el concurso, tanto como el título, la cantidad de participantes, las fechas, los límites, etc. |
+| US13          | Como cliente, debería poder modificar los problemas creados junto a los límites y las características del problema. |
+| US14          | Como cliente, debería poder personalizar el entorno de mis torneos. |
+| US15          | Como cliente, debería poder solicitar soporte ante alguna incidencia o duda. |
+| US16          | Como cliente, debería poder solicitar una reunión para hacer solicitudes según mis requerimientos con alguien de auditoría |
+| US17          | Como cliente, debería poder actualizar o cancelar mi suscripción. |
 
 ---
 <!-- #### // Requerimientos por evaluar: Existen otras funcionalidades nuestras plataformas modelo ofrecen y que se necesitan evaluar para su implementación en la nuestra. Como usuario del sistema, existen opciones realizar clarificaciones respecto a un problema, ver tastks y realizar backups. Como administrador del sistema, se pueden crear y modificar los datos de competencias, ver logs, reportes, los usuarios en una competencia, entre otros. // -->
 
-### 2.2. Flujo de Interacción con la Plataforma Ulitorneos: (Flujo principal)
+### 2.2. Flujo de Interacción con la Plataforma Ulitorneos
 
+#### Flujo Cuenta de USuario
 1. El usuario accede a la página de inicio de Ulitorneos.
 2. El usuario hace clic en "Registro de Usuario" (US01) para crear una cuenta nueva.
 3. El usuario completa el formulario de registro, proporcionando su correo electrónico, nombre de usuario y contraseña.
 4. Después de completar el registro, el usuario inicia sesión en la plataforma haciendo clic en "Inicio de Sesión" (US02) y proporciona sus credenciales recién creadas.
 5. Una vez dentro de la plataforma, el usuario puede acceder a su perfil y seleccionar la opción "Modificar Datos Personales" (US03) para actualizar su nombre de usuario, contraseña y país.
 6. Cuando el usuario haya terminado de usar la plataforma, puede hacer clic en "Cerrar Sesión" (US04) para salir de su cuenta.
-7. Para resolver problemas, el usuario puede acceder a la sección "Visualizar Problemas" (US05) y ver una lista de problemas disponibles con sus nombres y descripciones.
-8. El usuario elige un problema específico y hace clic en "Subir Solución" (US06) para cargar sus archivos de código fuente y presentar una solución.
-9. Mientras participa en un concurso, el usuario puede ver el tiempo restante del concurso en la sección "Visualización del Tiempo del Concurso" (US07).
-10. El usuario puede ver los resultados de sus soluciones en la sección "Visualizar Resultados" (US08), donde se muestra información como el tiempo tomado, el lenguaje utilizado y la respuesta del juez.
-11. Además, el usuario puede explorar los puntajes globales de otros participantes en la sección "Visualizar Puntajes Globales" (US09), donde se proporcionan datos como el nombre de usuario, país, instituto y puntaje total.
+
+#### Flujo Participante
+1. Para resolver problemas, el usuario puede acceder a la sección "Visualizar Problemas" (US05) y ver una lista de problemas disponibles con sus nombres y descripciones.
+2. El usuario elige un problema específico y hace clic en "Subir Solución" (US06) para cargar sus archivos de código fuente y presentar una solución.
+3. Mientras participa en un concurso, el usuario puede ver el tiempo restante del concurso en la sección "Visualización del Tiempo del Concurso" (US07).
+4. El usuario puede ver los resultados de sus soluciones en la sección "Visualizar Resultados" (US08), donde se muestra información como el tiempo tomado, el lenguaje utilizado y la respuesta del juez.
+5. Además, el usuario puede explorar los puntajes globales de otros participantes en la sección "Visualizar Puntajes Globales" (US09), donde se proporcionan datos como el nombre de usuario, país, instituto y puntaje total.
+
+#### Flujo Cliente
+1. El usuario crea un torneo especificando sus características.
+2. El usuario crea desafíos para el torneo previamente creado.
+3. El usurio modifica detalles del torneo o desafíos según sus necesidades de corrección o ajuste.
+4. El usuario personaliza la apariencia de sus torneos.
+5. El usuario crea llama a soporte.
+6. El usuario solicita una reunión con equipo de auditría.
+7. El usuario visualiza los resultados en tiempo real de las soluciones durante el torneo.
+8. El usuario accede a recursos de marketing.
+
 
 ### 2.3. Requerimientos de Atributos de Calidad (Escenarios)
 
