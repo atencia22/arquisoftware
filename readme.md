@@ -109,7 +109,8 @@ Como administrador, quiero poder recibir mensajes sobre problemas técnicos, as�
 
 <!-- #### // Requerimientos por evaluar: Existen otras funcionalidades nuestras plataformas modelo ofrecen y que se necesitan evaluar para su implementación en la nuestra. Como usuario del sistema, existen opciones realizar clarificaciones respecto a un problema, ver tastks y realizar backups. Como administrador del sistema, se pueden crear y modificar los datos de competencias, ver logs, reportes, los usuarios en una competencia, entre otros. // -->
 
-### 2.2. Flujo de Interacción con la Plataforma Ulitorneos: (Flujo principal)
+### 2.2. Flujo de Interacción con la Plataforma Ulitorneos:
+#### 2.2.1. Flujo de interacción del usuario
 
 1. El usuario accede a la página de inicio de Ulitorneos.
 2. El usuario hace clic en "Registro de Usuario" (US01) para crear una cuenta nueva.
@@ -123,6 +124,19 @@ Como administrador, quiero poder recibir mensajes sobre problemas técnicos, as�
 10. El usuario puede ver los resultados de sus soluciones en la sección "Visualizar Resultados" (US08), donde se muestra información como el tiempo tomado, el lenguaje utilizado y la respuesta del juez.
 11. Además, el usuario puede explorar los puntajes globales de otros participantes en la sección "Visualizar Puntajes Globales" (US09), donde se proporcionan datos como el nombre de usuario, país, instituto y puntaje total.
 
+#### 2.2.2. Flujo de interacción del administrador
+1. El adminstrador accede al sistema de Ulitorneos
+2. El administrador hace click en "Administración de cuentas de usuario" (US14), en donde se muestra un listado de los usuarios habilitados y por habilitar.
+3. Para habilitar a un nuevo usuario, el administrador hace click en un botón que dice "Habilitar" al lado del nombre del usuario nuevo.
+4. Para deshabilitarlo, el administrador hace click en el botón que dice "Deshabilitar" que aparece al lado del nombre del usuario.
+5. Después, el administrador procede a crear una nueva competencia de programación, por lo que se dirige a la opción de "Gestión de actividades" (US15), donde le aparecerá una ventana en donde podrá escribir el título, definir la cantidad de participantes, el tiempo de inicio y fin, las reglas e instrucciones, etc. Luego da click en "crear".
+6. Tras esto, el administrador puede eliminar la competencia previamente creada, presionando el botón "eliminar" que se encuentra al lado del título de la actividad.
+7. El administrador también puede modificar los datos de la competencia, como el título, la cantidad de participantes, etc; presionando el botón "Editar" (US16) ubicado al lado del título de la actividad. 
+8. El administrador ahora puede agregar los problemas que van a formar parte de la competencia previamente creada, para lo cual accede a la opción "+ Agregar problema" (US17) ubicado debajo del título de la competencia. También, añade los datos del problema, como los casos de prueba y los límites que necesita.
+9. Una vez creado, el administrador puede eliminar el problema, presionando el botón de "Eliminar", al lado del título del problema.
+10. El administrador también puede modificar los datos del problema, presionando el botón "Editar", al lado del título del problema.
+11. El administrador ahora se dirige al "Centro de notificaciones" (US19), en donde puede crear entradas de texto a modo de anuncios o actualizaciones, escribiendo dentro de un cuadro de texto y luego presionando el botón "Notificar".
+12. Por último, el administrador se dirige al apartado de "Consultas" (US20), en donde puede ver un listado de todas las consultas recientes, a las cuales puede atender presionando el botón "Responder" ubicado al costado de la entrada de la consulta. Se le abre un cuadro de texto, en donde podrá escribir para resolver la consulta, presionando el botón "Enviar" una vez haya terminado.
 ### 2.3. Requerimientos de Atributos de Calidad (Escenarios)
 
 A continuación, se presenta una tabla que resume los atributos de calidad, sus descripciones y los escenarios asociados:
@@ -195,22 +209,22 @@ En esta sección se va especificar los módulos de
 
 ## 5. Anexo: Tópicos en Arquitectura de Software (Por alumno)
 
-### 5.1. Tema / Alumno
+### 5.1. Stress Testing / Francisco Díaz
 
-### 5.2. Desarrollo Conceptual
+#### 5.1.1. Desarrollo Conceptual
 
-### 5.3. Consideraciones Técnicas
+#### 5.1.2. Consideraciones Técnicas
 
-#### 5.3.1. Instalación / Configuración de Servicio
+#### 5.1.3. Instalación / Configuración de Servicio
 
-#### 5.3.2. Primeros pasos
+#### 5.1.4. Primeros pasos
 
-### 5.4. Demo
+#### 5.1.5. Demo
 
-#### 5.4.1. Escenario práctico
+#### 5.1.6. Escenario práctico
 
-#### 5.4.2. Pasos para la demo
+#### 5.1.7. Pasos para la demo
 
-#### 5.4.3. Resultados
+#### 5.1.8. Resultados
 
 ## 6. Referencias
