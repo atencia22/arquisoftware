@@ -68,6 +68,7 @@ En cuanto a los stakeholders, son todas aquellas personas que quieran mejorar su
 ## 2. Requerimientos del Sistema
 
 ### 2.1. Requerimientos Funcionales
+#### 2.1.1. Requerimientos de Usuario
 #### US01: Registro de usuario
 Como usuario, quiero poder crear una cuenta nueva, con un correo (revisar esto), usuario y una contraseña, para acceder a la plataforma. También poder crear la cuenta utilzando los servicios de google para mayor facilidad. 
 #### US02: Inicio de sesión
@@ -86,14 +87,25 @@ Como usuario, quiero poder ver el tiempo restante del concurso, para poder organ
 Como usuario, quiero poder visualizar la información de los problemas y las respectivas soluciones que presenté, así como el tiempo que tomé, el lenguage utilizado, y la respuesta por parte del juez, para seguir el récord de mis soluciones presentadas.
 #### US09: Visualizar puntajes globales
 Como usuario, quiero poder ver los puntajes a nivel global de otros usuarios que han presentado sus soluciones, con datos como el nombre de usuario, el país, el instituto, los problemas que ha resuelto y el puntaje total, para hacer un seguimiento del progreso de otros usuarios.
-#### US10: Registrar nuevo concurso 
-Como Usuario, quiero poder crear mi concurso de programación con la cantidad de participantes, el tiempo del concurso, las fechas límites del concurso y las características como los títulos, descripciones, etc. 
-#### US11: Subir problemas al concurso creado 
-Como usuario, debería poder subir los problemas para el concurso que he creado junto a sus casos de prueba y los límites que este necesita. 
-#### US12: Modificar el concurso 
-Como usuario, debería poder modificar una vez creado el concurso creado, tanto como el título, la cantidad de participantes, las fechas, lo límites, etc. 
-#### US13: Modificar los problemas del concurso
-Como usuario, debería poder modificar los problemas creados junto a los límites y las características del problema. 
+
+ 
+#### 2.1.2. Requerimientos de Administrador/Institución
+
+#### US14: Administración de cuentas
+Como administrador del sistema, quiero porder habilitar las nuevas cuentas de usuario o deshabilitar las ya existentes, para controlar el acceso al sistema y mantener la seguridad.
+#### US15: Gestión de actividades
+Como administrador del sistema, quiero poder crear una actividad de desafío/competencia de programación, con la cantidad de participantes, el tiempo del concurso, las fechas límites del concurso y las características como los títulos, descripciones, etc; así como también poder eliminarla por completo del sistema, para poder gestionar de mejor el manera las actividades.
+#### US16: Modificar actividad 
+Como administrador, debería poder modificar los datos una vez creado la actividad/competencia, tanto como el título, la cantidad de participantes, las fechas, lo límites, etc; para poder atender cualquier cambio o actualización repentina.
+#### US17: Gestionar problema
+Como administrador del sistema, debería poder subir los problemas para el concurso que he creado junto a sus casos de prueba y los límites que este necesita, así como poder eliminarlo una vez creado. 
+#### US18: Modificar problema
+Como administrador del sistema, debería poder modificar los problemas creados junto a los límites y las características del problema, para atender actualizaciones repentinas.
+#### US19: Gestión de notificaciones
+Como administrador, quiero poder configurar los anuncios y notificaciones que recibirán los usuarios, para informarles sobre nuevas actividades o realizar actualizaciones.
+#### US20: Soporte/Atención de consultas
+Como administrador, quiero poder recibir mensajes sobre problemas técnicos, así como otras consultas, para resolver los problemas que tengan los usuarios.
+
 
 <!-- #### // Requerimientos por evaluar: Existen otras funcionalidades nuestras plataformas modelo ofrecen y que se necesitan evaluar para su implementación en la nuestra. Como usuario del sistema, existen opciones realizar clarificaciones respecto a un problema, ver tastks y realizar backups. Como administrador del sistema, se pueden crear y modificar los datos de competencias, ver logs, reportes, los usuarios en una competencia, entre otros. // -->
 
